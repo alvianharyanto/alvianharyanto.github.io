@@ -23,6 +23,7 @@ html body {
 
 a {
     color : var(--link-color);
+    transition: 1.2s;
 }
 
 h4 {
@@ -51,7 +52,7 @@ h4 {
     background: var(--link-color);
     background-clip: padding-box;
     color: whitesmoke;
-    transition: background .8s ease;
+    transition: background 1.2s ease;
 }
 
 .primary-button:hover {
@@ -71,9 +72,10 @@ h4 {
 }
 
 .secondary-button {
+    color: var(--link-color);
     background: whitesmoke;
     background-clip: padding-box;
-    transition: background .6s ease;
+    transition: background 1s ease;
 }
 
 .secondary-button:hover {
