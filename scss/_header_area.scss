@@ -1,0 +1,125 @@
+// site-title
+.site-title {
+    height: 100vh;
+
+    h3 {
+        color: $primary1-color;
+    }
+}
+
+// button
+
+.button {
+    color: $primary1-color;
+    font-weight: bold;
+    border: 1px solid $primary1-color !important;
+    padding: .6rem 1.5rem;
+    border: none;
+    transition: $duration;
+
+    a:hover {
+        border-bottom: none;
+    }
+
+    &:hover {
+        box-shadow: 0 10px 13px -7px $accent-color;
+        border: 1px solid $accent-color !important;
+    }
+}
+
+
+// menu-navbar
+.navbar {
+    background: $background-color;
+}
+
+.nav {
+
+    justify-content: space-around;
+
+    .nav-link {
+        margin: .5rem 1rem;
+        padding: 0;
+    }
+
+    .logo a {
+        font-family: $title-font;
+        font-size: 1.5rem;
+        color: $secondary-color;
+        letter-spacing: .3rem;
+
+        text-shadow: $text-shadow;
+
+        &:hover {
+            border: none;
+            color: $accent-color;
+            text-shadow: 2px 2px 0 $secondary-color,
+                4px 4px 0 #9c9c9c,
+                2px 2px 2px rgba(206, 46, 105, 0);
+        }
+    }
+
+}
+
+// menu bar
+#menu-bar {
+    width: 25px;
+    height: 25px;
+    margin: .6rem 0;
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 70%;
+    background: $secondary-color;
+    display: block;
+    border-radius: .2rem;
+    float: right;
+    transition: $duration;
+
+}
+
+#bar1 {
+    transform: translateY(-2px);
+    width: 100%;
+}
+
+#bar3 {
+    transform: translateY(2px);
+    width: 50%;
+}
+
+.change {
+    .bar {
+        background: $background-color;
+        width: 100%;
+
+    }
+
+    #bar1 {
+        transform: translateY(2px) rotate(-45deg);
+
+    }
+
+    #bar3 {
+        transform: translateY(-4px) rotate(45deg);
+        width: 100%;
+    }
+
+    #bar2 {
+        opacity: 0;
+    }
+}
+
+.menu-bg {
+    width: 0;
+    height: 0;
+    background: $accent-color;
+    transition: $duration;
+    border-radius: 50%;
+    position: fixed;
+    top: 1rem;
+    right: 1.4rem;
+}

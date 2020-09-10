@@ -1,0 +1,21 @@
+// Variable //
+// color
+$primary-color: rgb(68, 68, 82);
+$primary1-color: rgba(68, 68, 82, 0.7);
+$secondary-color: #62bcf0;
+$accent-color: #e42b9d;
+$background-color:#e6e6e9;
+
+// shadow
+$text-shadow: 2px 2px 0 $accent-color,
+4px 4px 0 #9c9c9c,
+2px 2px 2px rgba(206, 46, 105, 0);
+
+// font
+$title-font: 'Bangers',
+sans-serif;
+$text-font: 'Source Sans Pro',
+sans-serif;
+
+//transition 
+$duration: 1s ease;

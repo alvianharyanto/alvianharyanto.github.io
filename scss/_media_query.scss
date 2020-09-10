@@ -1,0 +1,87 @@
+@import './variables';
+
+@media screen and (max-width : 1060px) {
+    #menu-bar {
+        display: block;
+    }
+
+    .nav {
+
+        justify-content: space-between;
+        padding: 0 1.3rem;
+
+        .menu-nav {
+            width: 100%;
+            height: auto;
+            position: fixed;
+            left: 0;
+            top: 0;
+            text-align: right;
+            transform: translateX(100%);
+            display: block;
+            padding: 1.5rem .4rem;
+            transition: $duration;
+            z-index: 1;
+
+            a {
+                color: $background-color;
+
+                &:hover {
+                    color: $secondary-color;
+                    border: none;
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+
+    #icon {
+        z-index: 2;
+        margin: .5rem 0;
+    }
+
+    .show-menu {
+        transform: translateX(0%) !important;
+    }
+
+    .nav-item {
+        margin-top: 1.5rem;
+    }
+
+    .menu-bg-show {
+        width: 550px;
+        height: 540px;
+        display: block;
+        position: absolute;
+        transform: translate(70%, -40%);
+    }
+
+    .main-site {
+
+        .aboutme,
+        .portfolio,
+        .contact {
+            padding: 0 3rem !important;
+
+            .about {
+                padding: 0 !important;
+            }
+
+            .foto-wrap {
+                padding: 0 2rem;
+            }
+
+            .skill,
+            .foto {
+                margin-top: 2.5rem;
+            }
+        }
+
+        &-title,
+        .about {
+            text-align: center !important;
+        }
+    }
+
+}
