@@ -321,22 +321,25 @@ a:hover {
   justify-content: space-evenly !important;
 }
 
-.contact {
+.contact,
+.portfolio {
   text-align: center;
 }
 
-.contact h3 {
+.contact h3,
+.portfolio h3 {
   text-align: center;
 }
 
 .footer {
   height: 30px;
+  margin: 2rem 0;
   font-size: .8rem;
   color: #e6e6e9;
   background: rgba(68, 68, 82, 0.7);
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 960px) {
   #menu-bar {
     display: block;
   }
