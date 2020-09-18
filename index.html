@@ -12,6 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <!-- Bootstrap css file -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Aos animate css file-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Custom Style css-->
   <link rel="stylesheet" href="css/main.css">
@@ -21,7 +23,7 @@
 <body>
 
   <!-- *************** Start header area *************** -->
-  <header class="header_area">
+  <header class="header_area" data-aos="fade-in">
     <div class="d-flex flex-column align-items-center justify-content-center site-title">
       <h3>Hy, my name is</h3>
       <h1 class="title-text">Alvian Haryanto.</h1>
@@ -62,12 +64,12 @@
   <main class="main-site">
     <article>
       <!-- Start aboutme area -->
-      <section id="aboutme" class="aboutme">
+      <section id="aboutme" class="aboutme" data-aos="fade-up">
         <div class="row">
-          <div class="main-site-title col-12">
+          <div class="main-site-title col-12" data-aos="fade-up">
             <h3>About me</h3>
           </div>
-          <div class="about col-lg-5 col-md-12">
+          <div class="about col-lg-5 col-md-12" data-aos="fade-left">
 
             <p>Hy, I'am Alvian Haryanto. I also go by Vian somethimes. In 2020 I graduated from Bung Hatta University
               (Padang, Indonesia). when at university I enjoy doing
@@ -83,7 +85,7 @@
           </div>
 
           <div class="col-lg-4 col-md-12">
-            <div class="skill">
+            <div class="skill" data-aos="fade-up">
               Technology I used <span>(Skills)</span>
               <ul>
                 <li>
@@ -113,7 +115,7 @@
                 </li>
               </ul>
             </div>
-            <div class="social-media">
+            <div class="social-media" data-aos="fade-in">
               <span> Connect with me </span>
               <a href="https://linkedin.com/in/alvianharyanto/" target="_blank" l="nofollow"><i
                   class="fab fa-linkedin"></i></a>
@@ -125,7 +127,7 @@
                   class="fab fa-instagram-square"></i></a>
             </div>
           </div>
-          <div class="foto-wrap col-lg-3 col-md-12">
+          <div class="foto-wrap col-lg-3 col-md-12" data-aos="fade-rifht">
             <div class="foto">
               <div class="foto-bg"></div>
               <img src="img/ALVIAN.jpg" alt="foto-profil">
@@ -138,13 +140,13 @@
       <!-- End aboutme area -->
 
       <!-- Start portfolio area -->
-      <section id="portfolio" class="portfolio">
+      <section id="portfolio" class="portfolio" data-aos="fade-up">
         <div class="row">
           <div class="main-site-title col-12">
             <h3>Portfolio</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
+            <div class="card" data-aos="fade-in">
               <div class="card-img">
                 <img class="card-img-top" src="img/alvian_porofil_page.jpg" alt="portfolio page preview image">
               </div>
@@ -165,7 +167,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
+            <div class="card" data-aos="fade-in">
               <div class="card-img">
                 <img class="card-img-top" src="img/Simple_login_page_2.jpg" alt="simple login page v.2 preview image">
               </div>
@@ -188,7 +190,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
+            <div class="card" data-aos="fade-in">
               <div class="card-img">
                 <img class="card-img-top" src="img/simpla_login_page.jpg" alt="simple login page preview image">
               </div>
@@ -214,7 +216,7 @@
       <!-- End portfolio area -->
 
       <!-- Start contact area -->
-      <section id="contact" class="contact mb-5">
+      <section id="contact" class="contact mb-5" data-aos="fade-up">
         <div class="row">
           <div class="main-site-title col-12">
             <h3>Contact</h3>
@@ -248,14 +250,14 @@
   <script src="js/jquery-3.5.1.min.js"></script>
 
   <!-- Bootstrap js file -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <!-- Aos js file -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 
   <!-- script.js -->
