@@ -148,6 +148,11 @@ a:hover {
   right: 1.4rem;
 }
 
+.wrapper {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
 .main-site {
   line-height: 1.5;
 }
@@ -156,6 +161,11 @@ a:hover {
 .main-site .portfolio,
 .main-site .contact {
   padding: 4rem 7rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .main-site .aboutme .about,
