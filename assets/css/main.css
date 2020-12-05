@@ -161,7 +161,7 @@ a:hover {
 .main-site .portfolio,
 .main-site .contact {
   padding: 4rem 7rem;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,7 +177,7 @@ a:hover {
 
 .main-site-title {
   text-align: left;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   margin-top: 4rem;
 }
 
@@ -203,7 +203,7 @@ a:hover {
 
 .main-site .foto {
   width: 100%;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   overflow: hidden;
   position: relative;
   transition: 1s ease;
@@ -221,7 +221,7 @@ a:hover {
   right: 0;
   position: absolute;
   background: #62bcf0;
-  opacity: .6;
+  opacity: 0.6;
   transition: 1s ease;
 }
 
@@ -236,7 +236,7 @@ a:hover {
 .main-site .skill li {
   margin: 1rem 0;
   list-style: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .main-site .skill li span {
@@ -252,7 +252,7 @@ a:hover {
   background: #e42b9d;
   display: block;
   height: 2px;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   overflow: hidden;
 }
 
@@ -285,12 +285,12 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   height: 10%;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .main-site .social-media span,
 .main-site .card-footer span {
-  padding: .3rem 0;
+  padding: 0.3rem 0;
   color: rgba(68, 68, 82, 0.7);
 }
 
@@ -319,7 +319,7 @@ a:hover {
 }
 
 .card-text {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: justify;
 }
 
@@ -343,7 +343,7 @@ a:hover {
 
 .footer {
   height: 30px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #e6e6e9;
   background: rgba(68, 68, 82, 0.7);
 }
