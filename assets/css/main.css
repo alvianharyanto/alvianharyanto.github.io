@@ -29,13 +29,12 @@ a {
   font-family: "Source Sans Pro", sans-serif;
   color: #444452;
   transition: 1s ease;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 a:hover {
   color: #e42b9d;
   text-decoration: none;
-  border-bottom: 1px solid #e42b9d;
 }
 
 .site-title {
@@ -175,6 +174,10 @@ a:hover {
   padding: 0 2rem 0 0;
 }
 
+.main-site .portfolio a {
+  color: #444452;
+}
+
 .main-site-title {
   text-align: left;
   margin-bottom: 0.5rem;
@@ -309,7 +312,11 @@ a:hover {
 
 .card {
   margin-top: 1rem;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-title {
@@ -325,10 +332,6 @@ a:hover {
 
 .card-img {
   box-shadow: 0px 9px 10px -10px rgba(0, 0, 0, 0.75);
-}
-
-.card-footer {
-  justify-content: space-evenly !important;
 }
 
 .contact,
