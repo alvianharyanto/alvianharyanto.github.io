@@ -25,6 +25,12 @@ h4 {
   font-family: "Bangers", sans-serif;
 }
 
+h6 {
+  font-weight: bold;
+  color: rgba(68, 68, 82, 0.7);
+  text-decoration: underline #62bcf0;
+}
+
 a {
   font-family: "Source Sans Pro", sans-serif;
   color: #444452;
@@ -200,6 +206,11 @@ a:hover {
   z-index: -1;
 }
 
+#portfolio h3::after {
+  width: 200px;
+  transform: translateX(-190px) translateY(15px);
+}
+
 .main-site .foto-wrap {
   padding: 0 3rem 0 2rem;
 }
@@ -316,7 +327,7 @@ a:hover {
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .card-title {
