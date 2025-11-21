@@ -5,8 +5,8 @@
 
             <!-- Maintenance Message -->
             <div class="p-3 md:p-6 font-pixel">
-                <!-- Icon -->
-                <img src="/maintenance.png" alt="Maintenance Image" class="w-full rounded-md object-contain mb-6" />
+                <img src="/images/maintenance.png" alt="Maintenance Image"
+                    class="w-full rounded-md object-contain mb-6" />
 
                 <h2 class="text-xl md:text-3xl font-bold mb-4 text-accent-teal">
                     Website Under Maintenance
