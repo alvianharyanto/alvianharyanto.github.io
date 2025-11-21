@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles dengan palette baru */
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-light-primary text-dark-primary;
+  }
+
+  .dark body {
+    @apply bg-dark-primary text-light-primary;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent-teal hover:bg-accent-teal/90 text-dark-primary font-medium py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-accent-purple hover:bg-accent-purple/90 text-dark-primary font-medium py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105;
+  }
+
+  .btn-pink {
+    @apply bg-accent-pink hover:bg-accent-pink/90 text-dark-primary font-medium py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105;
+  }
+
+  .card {
+    @apply bg-light-secondary dark:bg-dark-secondary rounded-xl border border-accent-teal/20 p-6 shadow-lg;
+  }
+
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Smooth transitions untuk dark mode */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
